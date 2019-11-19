@@ -29,16 +29,16 @@
             <ul class="list-unstyled components">
                 <p>Administrator</p>
                 <li class="active">
-                    <a href="index.php?halaman=index">Course</a>
+                    <a href="dashboard.php?page=course">Course</a>
                 </li>
                 <li>
-                    <a href="#">Quiz</a>
+                    <a href="dashboard.php?page=quiz">Quiz</a>
                 </li>
                 <li>
-                    <a href="#pageSubmenu">Assignment</a>
+                    <a href="dashboard.php?page=assign">Assignment</a>
                 </li>
                 <li>
-                    <a href="#">Raport Book</a>
+                    <a href="dashboard.php?page=raport">Raport Book</a>
                 </li>
                 <!-- <li>
                     <a href="#">Log Out</a>
