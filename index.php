@@ -2,7 +2,6 @@
 session_start();
 ?>
 <!DOCTYPE html>
-<html lang="en">
 <head>
 <title>FILLO</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -13,7 +12,15 @@ session_start();
 	<!-- Header -->
 
 	<header class="header">
-			
+			<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.php">
+         FILLLO E-Learning
+         </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 		<!-- Top Bar -->
 		<div class="top_bar">
 			<div class="top_bar_container">
@@ -22,14 +29,14 @@ session_start();
 						<div class="col">
 							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
 								<ul class="top_bar_contact_list">
-									<li><div class="question">Have any questions?</div></li>
+									<li><div class="question">Ada pertanyaan ?</div></li>
 									<li>
 										<i class="fa fa-phone" aria-hidden="true"></i>
-										<div>001-1234-88888</div>
+										<div>085642993300</div>
 									</li>
 									<li>
 										<i class="fa fa-envelope-o" aria-hidden="true"></i>
-										<div>info.deercreative@gmail.com</div>
+										<div></div>
 									</li>
 								</ul>
 								<div class="top_bar_login ml-auto">
@@ -244,7 +251,7 @@ session_start();
 			<div class="row">
 				<div class="col">
 					<div class="section_title_container text-center">
-						<h2 class="section_title">Welcome To Unicat E-Learning</h2>
+						<h2 class="section_title">Welcome to FILLO E-Learning</h2>
 						<div class="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p></div>
 					</div>
 				</div>
