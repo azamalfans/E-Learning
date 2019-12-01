@@ -54,6 +54,11 @@ nav .foto-profil img {
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
+
+.img-fluid{
+    width:200px;
+    height:200px;
+}
 </style>
 <nav class="sidenav">
 		<div class="foto-profil">
@@ -85,7 +90,24 @@ nav .foto-profil img {
 		</ul>
     </nav>
     <div class="main">
-        <h1>DASHBOARD</h1>
-        <p>Silahkan menuju Courses untuk membuka materi<br>
-        Assignment untuk membuka latihan soal<br>Quiz untuk membuka soal kuis <br>
-        Grade Book untuk melihat hasil pengerjaan</p>
+        <h1>Courses</h1>
+        <p>Materi yang tersedia:</p><br>
+        <div class="row text-center">
+          <div class="col-lg">
+            <h4>Sel</h4>
+            <a href="index.php?page=course1">
+            <img src="image/sel.jpg" class="img-fluid" alt="full artwork">
+            </a>
+          </div>
+          <div class="col-lg">
+            <h4>Jaringan Hewan</h4>
+            <a href="index.php?page=course2">
+            <img src="image/hewan.jpg" class="img-fluid" alt="zombie">
+            </a>
+          </div>
+          <div class="col-lg">
+            <h4>Biokimia</h4>
+            <a href="index.php?page=course3">
+            <img src="image/biokimia.png" class="img-fluid" alt="gift of mine">
+            </a>
+          </div>

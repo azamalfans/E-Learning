@@ -54,6 +54,11 @@ nav .foto-profil img {
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
+
+.img-fluid{
+    width:200px;
+    height:200px;
+}
 </style>
 <nav class="sidenav">
 		<div class="foto-profil">
@@ -85,7 +90,4 @@ nav .foto-profil img {
 		</ul>
     </nav>
     <div class="main">
-        <h1>DASHBOARD</h1>
-        <p>Silahkan menuju Courses untuk membuka materi<br>
-        Assignment untuk membuka latihan soal<br>Quiz untuk membuka soal kuis <br>
-        Grade Book untuk melihat hasil pengerjaan</p>
+        <h1>Quiz</h1>
