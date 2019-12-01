@@ -13,6 +13,54 @@
       die();
     }
 ?>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.php">
+        <img src="image/filogo.png" alt="logo" width="50px;">
+         
+         </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <?php
+            if(isset($_SESSION['username'])){
+              echo
+              "
+              <li class='nav-item'>
+              <a class='nav-link' href='index.php?page=home'>welcome,".$_SESSION['username'] . "</a>
+              </li>
+              </li>
+              <li class='nav-item'>
+              <a class='nav-link' href='index.php?page=logout'>Logout</a>
+              </li>";
+            }
+            else{
+              echo"
+              <li class='nav-item active'>
+              <a class='nav-link' href='index.php?page=home'>Home
+              <span class='sr-only'>(current)</span>
+              </a>
+              </li>
+              <li class='nav-item'>
+              <a class='nav-link' href='index.php?page=about'>About</a>
+              </li>
+              <li class='nav-item'>
+              <a class='nav-link' href='index.php?page=contact'>Contact</a>
+              </li>
+              <li class='nav-item'>
+              <a class='nav-link' href='index.php?page=login_form'>Login</a>
+              </li>";
+            }
+          ?>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
 <br><br><br>
 <div class="container">
         <div class="row d-flex align-items-center justfy-content-center">
@@ -46,3 +94,10 @@
         </div>
     </div>
 <br><br><br>
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Team5 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>

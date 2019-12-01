@@ -23,7 +23,7 @@ $cek_login = proses_login($username, $password);
 print_r($cek_login);
 if ($cek_login) {
     $_SESSION['username'] = $username;
-    redirect_to("home");
+    redirect_to("dashboard");
 } else {
     redirect_to("login_form&error=1");
 }
