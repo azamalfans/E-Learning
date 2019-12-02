@@ -1,5 +1,8 @@
 <style>
-  
+  body{
+    background-image: url("image/web.jpg");
+    background-size: cover;
+  }
   .sidenav {
   height: 100%;
   width: 300px;
@@ -73,9 +76,6 @@ nav .foto-profil img {
 			<a href="index.php?page=assignment">
 				<li>Assignment</li>
 			</a>
-			<a href="index.php?page=quiz">
-				<li>Quiz</li>
-			</a>
 			<a href="index.php?page=raport">
 				<li>Grade Book</li>
             </a>
@@ -86,6 +86,7 @@ nav .foto-profil img {
     </nav>
     <div class="main">
         <h1>DASHBOARD</h1>
+        <img src="image/filogo.png" alt="logo" width="200px" height="200px">
         <p>Silahkan menuju Courses untuk membuka materi<br>
         Assignment untuk membuka latihan soal<br>Quiz untuk membuka soal kuis <br>
         Grade Book untuk melihat hasil pengerjaan</p>

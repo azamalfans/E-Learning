@@ -1,5 +1,8 @@
 <style>
-  
+  body{
+    background-image: url("image/web.jpg");
+    background-size: cover;
+  }
   .sidenav {
   height: 100%;
   width: 300px;
@@ -77,9 +80,6 @@ nav .foto-profil img {
 			</a>
 			<a href="index.php?page=assignment">
 				<li>Assignment</li>
-			</a>
-			<a href="index.php?page=quiz">
-				<li>Quiz</li>
 			</a>
 			<a href="index.php?page=raport">
 				<li>Grade Book</li>

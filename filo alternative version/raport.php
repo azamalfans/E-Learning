@@ -1,5 +1,8 @@
 <style>
-  
+  body{
+    background-image: url("image/web.jpg");
+    background-size: cover;
+  }
   .sidenav {
   height: 100%;
   width: 300px;
@@ -78,9 +81,6 @@ nav .foto-profil img {
 			<a href="index.php?page=assignment">
 				<li>Assignment</li>
 			</a>
-			<a href="index.php?page=quiz">
-				<li>Quiz</li>
-			</a>
 			<a href="index.php?page=raport">
 				<li>Grade Book</li>
             </a>
@@ -91,3 +91,26 @@ nav .foto-profil img {
     </nav>
     <div class="main">
         <h1>Grade Book</h1>
+        <?php
+    $data = get_data_member();
+?>
+<br>
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Course</th>
+        <th>Point</th>
+    </tr>
+    <?php
+        while($row = mysqli_fetch_assoc($data))
+        {
+            echo "<tr>
+            <td>".$row['code']."</td>
+            <td>".$row['name']."</td>
+            <td>".$row['course']."</td>
+            <td>".$row['point']."</td>
+        </tr>";
+        }
+    ?>
+</table>

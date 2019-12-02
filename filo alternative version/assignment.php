@@ -1,5 +1,8 @@
 <style>
-  
+  body{
+    background-image: url("image/web.jpg");
+    background-size: cover;
+  }
   .sidenav {
   height: 100%;
   width: 300px;
@@ -78,9 +81,6 @@ nav .foto-profil img {
 			<a href="index.php?page=assignment">
 				<li>Assignment</li>
 			</a>
-			<a href="index.php?page=quiz">
-				<li>Quiz</li>
-			</a>
 			<a href="index.php?page=raport">
 				<li>Grade Book</li>
             </a>
@@ -91,3 +91,11 @@ nav .foto-profil img {
     </nav>
     <div class="main">
         <h1>Assignment</h1>
+        <p>Assignment yang tersedia:</p><br>
+        <div class="row text-center">
+          <div class="col-lg">
+            <h4>Sel</h4>
+            <a href="index.php?page=random">
+            <img src="image/sel.jpg" class="img-fluid" alt="full artwork">
+            </a>
+          </div>
